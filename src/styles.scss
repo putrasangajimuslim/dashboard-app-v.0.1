@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@use './assets/layouts.scss';
+
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* ⛔ Disable scroll horizontal */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,5 @@
+<ng-container *ngIf="item && !item.items">
+    <li [routerLink]="item.routerLink" [appExactActive]="item.routerLink">
+       {{ item.label }}
+    </li>
+</ng-container>

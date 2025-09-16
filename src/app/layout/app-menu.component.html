@@ -1,0 +1,6 @@
+<ng-container *ngFor="let item of model; let i = index">
+    <ul>
+        <!-- <li>{{ item.label }}</li> -->
+         <app-menuitem [item]="item" [index]="i" [root]="true"></app-menuitem>
+    </ul>
+</ng-container>
